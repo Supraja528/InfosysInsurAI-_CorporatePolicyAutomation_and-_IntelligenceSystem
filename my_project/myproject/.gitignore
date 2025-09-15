@@ -1,0 +1,24 @@
+# Ignore node modules and build outputs
+node_modules/
+dist/
+build/
+
+# Ignore backend build outputs
+target/
+
+# Ignore environment and log files
+.env
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.iml
+
+# Ignore other common files
+*.zip
+*.tar.gz
